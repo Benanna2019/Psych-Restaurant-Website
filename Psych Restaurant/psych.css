@@ -1,0 +1,129 @@
+body {
+  background: url("https://images4.alphacoders.com/857/857592.jpg") repeat fixed
+    100%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.menu-title {
+  display: flex;
+  justify-content: center;
+  text-shadow: 5px 5px black;
+  text-align: center;
+  font-size: 56pt;
+  margin-top: 150px;
+  margin-bottom: 75px;
+  color: white;
+}
+
+.restaurant-desc {
+  display: flex;
+  justify-content: center;
+  text-shadow: 6px 6px black;
+  font-size: 36pt;
+  text-align: center;
+  margin-bottom: 200px;
+  color: yellow;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  font-size: 40pt;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+div span {
+  background-color: darkred;
+  border-radius: 15px;
+  box-shadow: 2px 2px black;
+}
+
+.menu-images {
+  width: 20vw;
+  height: 25vh;
+  margin: 0px auto;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+.appetizer {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 150px;
+  align-content: center;
+}
+
+.entree {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  text-align: center;
+  height: auto;
+  flex-wrap: wrap;
+  background: none;
+  margin: 10px;
+  margin-bottom: 150px;
+}
+
+.Dessert {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.pineapple,
+.pretzel,
+.pizza-fries,
+.Chicken-Cordon-Bleu {
+  width: 20vw;
+  background-color: lightgray;
+  border-radius: 10px;
+  box-shadow: 3px 3px darkolivegreen;
+}
+
+.quatro-queso-fries,
+.jerk-chicken-nachos,
+.jappa-dog,
+.pancakes,
+.rib-eye,
+.taco {
+  width: 20vw;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 3px 3px darkolivegreen;
+}
+
+.cinnamon-pie,
+.monkey-bread,
+.pineapple-cake,
+.strawberry-smoothie {
+  width: 20vw;
+  background-color: lightgray;
+  border-radius: 10px;
+  box-shadow: 3px 3px darkolivegreen;
+}
+
+.item {
+  font-size: 32px;
+  text-decoration: underline;
+  text-shadow: 1px 1px;
+  margin-bottom: 30px;
+}
+
+.item-desc {
+  font-size: 20px;
+}
+
+.item-price {
+  font-size: 17px;
+  font-style: italic;
+}
