@@ -1,8 +1,7 @@
 body {
   background: url("https://images4.alphacoders.com/857/857592.jpg") repeat fixed
     100%;
-  /* display: flex;
-  justify-content: center; */
+  
 }
 
 .menu-title {
@@ -19,7 +18,7 @@ body {
 .restaurant-desc {
   display: flex;
   justify-content: center;
-  text-shadow: 6px 6px black;
+  text-shadow: 3px 3px black;
   font-size: 36pt;
   text-align: center;
   margin-bottom: 200px;
